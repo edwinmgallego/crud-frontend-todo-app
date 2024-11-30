@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+   
+    <title>agenda agenda todo-app</title>
+</head>
+<body>
+    <h1 class="title is-1 has-text-centered">Lista de Tareas</h1>
+    <section class="section full-height">
+        <div class="container is-flex is-justify-content-center is-align-items-center">
+            <div class="column is-half">
+               
+                <form action="" id="todo-form">
+                    <div class="card">
+                        <div class="card-content">
+                            <input type="text" id="todo-input" class="input is-info" placeholder="Agrega tu tarea">
+                            <button type="submit" class="button is-primary is-fullwidth">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <ul id="todo-list"></ul>
+
+<script src="./app.js"></script>
+</body>
+</html>
